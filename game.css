@@ -1,0 +1,186 @@
+body {
+  /*https://www.nasa.gov/sites/default/files/thumbnails/image/potw1138a.jpg*/
+  background: url(image/game.jpg);
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 4em;
+  font-family: 'Karla', sans-serif;
+
+}
+
+nav {
+  background-color: #D9F9FF;
+  padding: 20px 0 20px 0;
+}
+
+a {
+  font-family: "raleway";
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0 20px 0 20px;
+  bottom-border: 2px solid transparent;
+}
+
+.box p {
+  font-size: 2em;
+}
+
+span {
+  font-size: 2em;
+  font-family: 'Karla', sans-serif;
+  font-weight: ;
+}
+
+#container {
+  width: 600px;
+  height: 600px;
+  border: 1px solid white;
+  position: absolute;
+  left: 400px;
+  top: 200px;
+  margin: 0 auto;
+}
+#container button {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  font-size: 2em;
+  cursor: pointer;
+
+}
+
+.box {
+  border : 1px solid white;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+
+#cardt {
+  width: 240px;
+  height: 360px;
+  border: 1px solid white;
+  position: absolute;
+  left:100px;
+  top: 150px;
+  border: 1px solid white;
+  border-radius: 10%;
+  color: white;
+  cursor: pointer;
+}
+
+#cardd {
+  width: 240px;
+  height: 360px;
+  border: 1px solid white;
+  position: absolute;
+  left:1050px;
+  top: -212px;
+  border: 1px solid white;
+  border-radius: 10%;
+  color: white;
+  cursor: pointer;
+
+}
+
+#cardt .back{
+  background: white;
+  border-radius: 10%;
+  color: black;
+  vertical-align: middle;
+  font-size: 2em;
+}
+
+#cardd .back{
+  background: white;
+  border-radius: 10%;
+  color: black;
+  vertical-align: middle;
+  font-size: 2em;
+}
+
+input {
+  font-size: 2.4em;
+  background-color: transparent;
+  text-align: center;
+  border-width: 0;
+  width: 100%;
+  margin: 0 0 .1em 0;
+  color: #fff;
+}
+
+label {
+  display: block;
+  font-size: .8em;
+}
+
+
+.square1 {
+    width: 200px;
+    height: 100px;
+    left: 150px;
+    top: 200px;
+    background-color: #444;
+    color: #C4BE92;
+    text-align: center;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    padding: .8em .8em 1em;
+    width: 8em;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 12px 0px #000;
+    box-shadow: 0px 0px 12px 0px #000;
+    position: absolute;
+}
+
+.square2 {
+    width: 200px;
+    height: 100px;
+    left: 1100px;
+    top: 200px;
+    background-color: #444;
+    color: #C4BE92;
+    text-align: center;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    padding: .8em .8em 1em;
+    width: 8em;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 12px 0px #000;
+    box-shadow: 0px 0px 12px 0px #000;
+    position: absolute;
+}
+/*@media (max-width: 800px) {
+  #container {
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+  position: relative;
+  left: 133px;
+  top: 66px;
+  margin: 0 auto;
+  }
+  .box {
+  border : 1px solid white;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+}
+*/

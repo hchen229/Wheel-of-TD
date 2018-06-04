@@ -1,0 +1,61 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Wheel of Truth and Dare</title>
+  <link rel="stylesheet" type="text/css" href="game.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+  <script src = "game.js"></script>
+</head>ß
+<body>
+  <header>
+    <h1>Wheel of Truth and Dare</h1>
+  </header>
+  <nav>
+      <a href="#" style="font-size: 30px">😁</a>
+      <a href="#">Instructions</a>
+      <a href="#">Scoreboard</a>
+      <a href="#" style="font-size: 30px">😁</a>
+  </nav>
+  <div class="square1">
+        <label for="pts"><abbr title="Point">P1</abbr></label>
+        <input id="pts" value="0" />
+        <button id="plus" onclick="scoreKeeping(-1)">-1</button>
+        <button id="minus" onclick="scoreKeeping(1)">+1</button>
+  </div>
+  <div class="square2">
+        <label for="pts"><abbr title="Point">P2</abbr></label>
+        <input id="pts" value="0" />
+        <button id="plus" onclick="scoreKeeping(-1)">-1</button>
+        <button id="minus" onclick="scoreKeeping(1)">+1</button>
+  </div>
+  <div id = "cardt">
+    <div class = "front">
+        <h2>T</h2>
+    </div>
+    <div class = "back"></div>
+  </div>
+  <div id = "cardd">
+    <div class = "front">
+        <h2>D</h2>
+    </div>
+    <div class ="back">
+    </div>
+  </div>
+  <div id = "container">
+    <div class = 'box' style="left: 0;top:0;"><p>T</p></div>
+    <div class = 'box' style="left:150px;top:0;"><p>D</p></div>
+    <div class = 'box' style="left:300px;top:0;"><p>T</p></div>
+    <div class = 'box' style="left:450px;tsop:0;"><p>Drink</p></div>
+    <div class = 'box' style="left:450px;top:150px;"><p>T</p></div>
+    <div class = 'box' style="left:450px;top:300px;"><p>D</p></div>
+    <div class = 'box' style="left:450px;top:450px;"><p>T</p></div>
+    <div class = 'box' style="left:300px;top:450px;"><p>Drink</p></div>
+    <div class = 'box' style="left:150;top:450px;"><p>T</div>
+    <div class = 'box' style="left:0;top:450px;"><p>D</p></div>
+    <div class = 'box' style="left:0;top:300px;"><p>T</p></div>
+    <div class = 'box' style="left:0;top:150px;"><p>Drink</p></div>
+    <button style="left:150px;top:150px;"><span>START</span></button>
+  </div>
+</body>
+</html>
